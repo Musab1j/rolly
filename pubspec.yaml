@@ -3,7 +3,7 @@ description: >-
   Numbers and text that animate the way they do on iOS. Digits roll, the line
   reflows, glyphs are born and die in place. No dependencies beyond Flutter's
   own.
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/Musab1j/rolly
 issue_tracker: https://github.com/Musab1j/rolly/issues
 

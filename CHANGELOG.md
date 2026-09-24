@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1
+
+- Relicensed under MIT No Attribution (MIT-0), which pub.dev recognises. It grants the same
+  freedoms as the previous 0BSD licence.
+
 ## 0.1.0
 
 First release.
