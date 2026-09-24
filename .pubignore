@@ -1,0 +1,21 @@
+# Kept in the repository, left out of the published archive.
+# NOTE: pub uses this file *instead of* .gitignore, so build output is listed here too.
+.dart_tool/
+build/
+.idea/
+*.iml
+.DS_Store
+pubspec.lock
+
+# The showcase GIF: it lives in the repository, and the README links it from there.
+doc/*.gif
+
+example/.dart_tool/
+example/build/
+example/pubspec.lock
+example/ios/
+example/android/
+example/macos/
+example/web/
+example/linux/
+example/windows/

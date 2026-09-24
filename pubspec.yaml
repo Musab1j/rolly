@@ -1,0 +1,34 @@
+name: rolly
+description: >-
+  Numbers and text that animate the way they do on iOS. Digits roll, the line
+  reflows, glyphs are born and die in place. No dependencies beyond Flutter's
+  own.
+version: 0.1.0
+repository: https://github.com/Musab1j/rolly
+issue_tracker: https://github.com/Musab1j/rolly/issues
+
+topics:
+  - animation
+  - text
+  - numbers
+  - transitions
+  - ui
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=3.32.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Grapheme clusters, so text animated character by character splits where a reader would say one
+  # character ends - not between an emoji and its skin-tone modifier. The Flutter SDK depends on
+  # this package itself, so it adds nothing to resolve.
+  characters: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:

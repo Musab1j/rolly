@@ -1,0 +1,30 @@
+# Miscellaneous
+*.log
+*.swp
+.DS_Store
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Dart / Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+# A library does not pin its dependencies.
+pubspec.lock
+
+# Example app build output
+example/.dart_tool/
+example/build/
+example/ios/Flutter/.last_build_id
+example/ios/Pods/
+example/macos/Pods/
+
+# Symbolication / obfuscation
+app.*.symbols
+app.*.map.json
